@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo1.png";
 import {
   FaBars,
   FaGithub,
@@ -48,13 +47,13 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-50">
         {nav ? <FaTimes /> : <FaBars />}
       </div>
 
       {/* Mobile menu */}
       {nav && (
-        <ul className="absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
+        <ul className="absolute z-40 top-0 left-0  w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
           <li className="py-6 text-4xl">
             <ScrollLink
               onClick={handleClick}

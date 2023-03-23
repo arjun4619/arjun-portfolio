@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import TypewriterComponent from "typewriter-effect";
+import resume from "../assets/resume.pdf";
 
 const Home = () => {
   return (
@@ -34,7 +35,7 @@ const Home = () => {
         </p>
         <div>
           <a
-            href="/"
+            href={resume}
             target="_blank"
             className="text-white border-2 px-6 py-3 my-2 max-w-[200px] cursor-pointer flex items-center hover:bg-pink-600 duration-300"
           >

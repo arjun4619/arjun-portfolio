@@ -19,6 +19,6 @@ export const projectData = [
     name: "Portfolio",
     bgImg: portfolio,
     liveLink: "https://arjunshankar.netlify.app/",
-    sourceCode: "https://github.com/arjun4619/metaversus",
+    sourceCode: "https://github.com/arjun4619/arjun-portfolio",
   },
 ];
